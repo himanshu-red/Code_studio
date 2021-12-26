@@ -10,7 +10,7 @@ vector<int> wavePrint(vector<vector<int>> arr, int nRows, int mCols)
                 if(!(reversed))
                 	v.push_back(arr[j][i]); 
                 else 
-					v.push_back(arr[nRows-j-1][i]) ; 
+			v.push_back(arr[nRows-j-1][i]) ; 
             }
         if (reversed)
             reversed = false; 
